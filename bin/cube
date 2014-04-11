@@ -1,0 +1,38 @@
+#!/bin/bash
+# PODNAME: cube
+# ABSTRACT: quick script to send things to hypnocube rather than piping yourself
+
+# easy way to write to cube rather than echoing to the pipe
+
+CUBE=/tmp/hypnocube
+
+if [ "$1" != "" ] ; then
+  echo "$@" > $CUBE
+fi
+
+__END__
+
+=pod
+
+=encoding UTF-8
+
+=head1 NAME
+
+cube - quick script to send things to hypnocube rather than piping yourself
+
+=head1 VERSION
+
+version 1.2
+
+=head1 AUTHOR
+
+Kevin Mulholland <moodfarm@cpan.org>
+
+=head1 COPYRIGHT AND LICENSE
+
+This software is copyright (c) 2014 by Kevin Mulholland.
+
+This is free software; you can redistribute it and/or modify it under
+the same terms as the Perl 5 programming language system itself.
+
+=cut
