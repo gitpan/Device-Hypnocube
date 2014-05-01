@@ -11,6 +11,7 @@ bin/cube
 bin/cubedemo
 bin/cubepipe
 bin/hypnoweb
+cpanfile
 dist.ini
 lib/Device/Hypnocube.pm
 lib/Device/Hypnocube/Serial.pm
