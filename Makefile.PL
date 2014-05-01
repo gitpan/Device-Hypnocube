@@ -18,8 +18,8 @@ my %WriteMakefileArgs = (
   },
   "DISTNAME" => "Device-Hypnocube",
   "EXE_FILES" => [
-    "bin/hypnoweb",
     "bin/cubedemo",
+    "bin/hypnoweb",
     "bin/cubepipe",
     "bin/cheerlights",
     "bin/cube"
@@ -47,7 +47,7 @@ my %WriteMakefileArgs = (
     "File::Basename" => 0,
     "Test::More" => 0
   },
-  "VERSION" => "1.2",
+  "VERSION" => "1.3",
   "test" => {
     "TESTS" => "t/*.t"
   }

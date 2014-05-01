@@ -2,7 +2,7 @@
 
 
 package Device::Hypnocube;
-$Device::Hypnocube::VERSION = '1.2';
+$Device::Hypnocube::VERSION = '1.3';
 use 5.010;
 use strict;
 use warnings;
@@ -215,15 +215,15 @@ sub DEMOLISH {
 # some of these are the things being $self->send_data( HYPNOCUBE_ERR, 0)assed to new
 # ----------------------------------------------------------------------------
 
-# sub set_error {
-#     my $self = shift;
-#     my $code = shift;
+sub set_error {
+    my $self = shift;
+    my $code = shift;
 
-#     my $errmsg = { code => $code, error => $errors{$code} };
-#     $self->_set_error_info($errmsg);
+    my $errmsg = { code => $code, error => $errors{$code} };
+    $self->_set_error_info($errmsg);
 
-#     $self->_debug("error: $errors{$code}");
-# }
+    $self->_debug("error: $errors{$code}");
+}
 
 # ----------------------------------------------------------------------------
 
@@ -864,7 +864,7 @@ Device::Hypnocube - Control a hypnocube
 
 =head1 VERSION
 
-version 1.2
+version 1.3
 
 =head1 SYNOPSIS
 
