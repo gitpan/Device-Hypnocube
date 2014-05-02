@@ -2,7 +2,7 @@
 
 
 package Device::Hypnocube;
-$Device::Hypnocube::VERSION = '1.5';
+$Device::Hypnocube::VERSION = '1.6';
 use 5.010;
 use strict;
 use warnings;
@@ -864,7 +864,7 @@ Device::Hypnocube - Control a hypnocube
 
 =head1 VERSION
 
-version 1.5
+version 1.6
 
 =head1 SYNOPSIS
 
