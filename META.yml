@@ -33,4 +33,4 @@ requires:
   warnings: 0
 resources:
   repository: git://github.com/27escape/Device-Hypnocube.git
-version: 1.4
+version: 1.5
