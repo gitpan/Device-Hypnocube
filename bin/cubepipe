@@ -666,7 +666,7 @@ cubepipe - control the hypnocube via commands coming in over a named pipe
 
 =head1 VERSION
 
-version 1.6
+version 1.7
 
 =head1 AUTHOR
 
