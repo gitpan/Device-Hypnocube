@@ -8,6 +8,7 @@ requires "Moo" => "0";
 requires "Path::Tiny" => "0";
 requires "Time::HiRes" => "0";
 requires "Try::Tiny" => "0";
+requires "WebColors" => "0";
 requires "YAML::XS" => "0";
 requires "constant" => "0";
 requires "perl" => "v5.16.0";
