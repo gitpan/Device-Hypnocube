@@ -6,6 +6,7 @@ requires "Digest::CRC" => "0";
 requires "Fcntl" => "0";
 requires "Moo" => "0";
 requires "Path::Tiny" => "0";
+requires "Proc::ProcessTable" => "0";
 requires "Time::HiRes" => "0";
 requires "Try::Tiny" => "0";
 requires "WebColors" => "0";

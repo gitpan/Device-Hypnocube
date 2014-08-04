@@ -2,7 +2,7 @@
 
 
 package Device::Hypnocube::Serial ;
-$Device::Hypnocube::Serial::VERSION = '1.8';
+$Device::Hypnocube::Serial::VERSION = '1.9';
 use 5.010 ;
 use strict ;
 use warnings ;
@@ -296,7 +296,7 @@ Device::Hypnocube::Serial - Talk to a hypnocube over a serial link
 
 =head1 VERSION
 
-version 1.8
+version 1.9
 
 =head1 SYNOPSIS
 
